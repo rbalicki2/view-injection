@@ -1,54 +1,12 @@
-# Angular Library Boilerplate
+# View-injection
 
-> A great boilerplate for making and publishing an Angular library
+> It needs a better name. TBD
 
-## What is Angular Library Boilerplate?
+## What is view-injection
 
-**Angular library boilerplate** is an opinionated starter project that contains the build process you need but don't want to deal with.
+**View-injection** is an angular module injecting services and attaching them to your scope.
 
-## Quick start
-
-```sh
-git clone https://github.com/rbalicki2/angular-library-boilerplate
-cd angular-library-boilerplate
-npm install
-npm install -g gulp
-bower install
-gulp                # gulp lint, test, build, watch
-```
-
-And once it starts watching, in another terminal tab:
-
-```sh
-cat angular-library-boilerplate.js
-```
-
-## Quick reference: command line
-
-```sh
-gulp # gulp lint, test, build and watch
-gulp lint
-gulp test
-gulp build
-gulp watch
-```
-
-## Basics
-
-* Rename your project in package.json and bower.json
-* Put your source code into src/
-* All your source code is concatenated and minified and put into project-name.js and project-name.min.js
-* See gulp-tasks/config.json for options passed to jshint, spec, etc. as well as command line options
-
-## Choices
-
-* jshint for linting
-* karma and jasmine for unit testing
-* Spec files are of the form *.spec.js
-
-## Future
-
-* Order the files so *.module.js files get included first
+Use it with promise-unwrap for a controller-free experience.
 
 ## Contact
 
