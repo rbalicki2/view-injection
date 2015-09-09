@@ -1,0 +1,28 @@
+{
+  "name": "angular-library-boilerplate",
+  "description": "A badass boilerplate for an angular library",
+  "main": "./angular-library-boilerplate.min.js",
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "view",
+    "angular",
+    "unwrap",
+    "resolve"
+  ],
+  "authors": [
+    {
+      "name": "Robert Balicki",
+      "email": "robert.balicki@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbalicki2/angular-library-boilerplate.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "angular-mocks": "~1.4.5",
+    "angular": "~1.4.5"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "angular-library-boilerplate",
+  "version": "0.0.0",
+  "description": "A badass boilerplate for an angular library",
+  "keywords": [
+    "angular",
+    "boilerplate",
+    "library",
+    "gulp"
+  ],
+  "homepage": "https://github.com/rbalicki2/angular-library-boilerplate/",
+  "bugs": "https://github.com/rbalicki2/angular-library-boilerplate/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Robert Balicki",
+    "email": "robert.balicki@gmail.com"
+  },
+  "main": "./promise-unwrap.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbalicki2/angular-library-boilerplate.git"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "bump" : "gulp bump"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-iife": "^0.1.0",
+    "gulp-indent": "^1.0.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.0",
+    "jasmine-core": "^2.3.4",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "main-bower-files": "^2.9.0",
+    "phantomjs": "^1.9.18",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.2",
+    "yargs": "^3.24.0"
+  },
+  "dependencies": {}
+}

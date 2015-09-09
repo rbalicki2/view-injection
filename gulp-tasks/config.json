@@ -1,0 +1,91 @@
+{
+  "lint" : {
+    "options": {
+      "src" : {
+        "bitwise": true,
+        "camelcase": true,
+        "eqeqeq": true,
+        "immed": true,
+        "latedef": "nofunc",
+        "newcap": true,
+        "noarg": true,
+        "nonbsp": true,
+        "quotmark": "single",
+        "undef": true,
+        "strict": true,
+        "loopfunc": true,
+        "expr" : true,
+        "globalstrict" : true,
+        "devel" : true,
+        "browser" : true,
+        "globals" : {
+          "angular" : true,
+          "_" : true
+        }
+      },
+      "gulp" : {
+        "bitwise": true,
+        "camelcase": true,
+        "eqeqeq": true,
+        "immed": true,
+        "latedef": "nofunc",
+        "newcap": true,
+        "noarg": true,
+        "nonbsp": true,
+        "quotmark": "single",
+        "undef": true,
+        "strict": true,
+        "loopfunc": true,
+        "expr" : true,
+        "globalstrict" : true,
+        "node" : true
+      }
+    }
+  },
+  "build" : {},
+  "watch" : {},
+  "test" : {
+    "karma" : {
+      "conf" : "karma.conf.js"
+    }
+  },
+  "selectors" : {
+    "srcScripts" : [
+      "src/**/!(*.spec).js"
+    ],
+    "gulpScripts" : [
+      "gulp-tasks/**/*.js",
+      "gulpfile.js",
+      "karma.conf.js"
+    ],
+    "srcScriptsAll" : [
+      "src/**/*.js"
+    ]
+  },
+  "argv" : {
+    "watch" : true,
+    "build" : true,
+    "lint" : true,
+    "test" : true,
+    "notify" : true,
+    "gulp" : true,
+    "src" : true
+  },
+  "mainBowerFiles" : {
+    "options" : {
+      "includeDev" : true
+    }
+  },
+  "iife" : {
+    "options" : {
+      "useStrict" : false,
+      "trimCode" : false
+    }
+  },
+  "indent" : {
+    "options" : {
+      "tabs" : false,
+      "amount" : 2
+    }
+  }
+}
