@@ -37,7 +37,7 @@ gulp watch
 
 * Rename your project in package.json and bower.json
 * Put your source code into src/
-* All your source code is concatenated and minified and put into <project-name>.js and <project-name>.min.js
+* All your source code is concatenated and minified and put into project-name.js and project-name.min.js
 * See gulp-tasks/config.json for options passed to jshint, spec, etc. as well as command line options
 
 ## Choices
