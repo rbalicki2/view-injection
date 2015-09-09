@@ -1,7 +1,7 @@
 {
   "name": "view-injection",
   "version": "0.0.0",
-  "description": "Angular directives for injecting services into templates",
+  "description": "Angular directives and filters for injecting services into templates",
   "keywords": [
     "angular",
     "injection",
