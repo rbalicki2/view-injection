@@ -51,6 +51,7 @@
   },
   "selectors" : {
     "srcScripts" : [
+      "src/**/*.module.js",
       "src/**/!(*.spec).js"
     ],
     "gulpScripts" : [
@@ -59,6 +60,8 @@
       "karma.conf.js"
     ],
     "srcScriptsAll" : [
+      "src/**/*.module.js",
+      "src/**/!(*.spec).js",
       "src/**/*.js"
     ]
   },

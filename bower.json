@@ -1,7 +1,7 @@
 {
-  "name": "angular-library-boilerplate",
-  "description": "A badass boilerplate for an angular library",
-  "main": "./angular-library-boilerplate.min.js",
+  "name": "view-injection",
+  "description": "Inject services into templates",
+  "main": "./view-injection.min.js",
   "license": "MIT",
   "keywords": [
     "promise",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbalicki2/angular-library-boilerplate.git"
+    "url": "https://github.com/rbalicki2/view-injection.git"
   },
   "dependencies": {},
   "devDependencies": {

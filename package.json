@@ -1,15 +1,16 @@
 {
-  "name": "angular-library-boilerplate",
+  "name": "view-injection",
   "version": "0.0.0",
-  "description": "A badass boilerplate for an angular library",
+  "description": "Angular directives for injecting services into templates",
   "keywords": [
     "angular",
-    "boilerplate",
-    "library",
-    "gulp"
+    "injection",
+    "view",
+    "services",
+    "dependency"
   ],
-  "homepage": "https://github.com/rbalicki2/angular-library-boilerplate/",
-  "bugs": "https://github.com/rbalicki2/angular-library-boilerplate/issues",
+  "homepage": "https://github.com/rbalicki2/view-injection/",
+  "bugs": "https://github.com/rbalicki2/view-injection/issues",
   "license": "MIT",
   "author": {
     "name": "Robert Balicki",
@@ -18,7 +19,7 @@
   "main": "./promise-unwrap.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbalicki2/angular-library-boilerplate.git"
+    "url": "https://github.com/rbalicki2/view-injection.git"
   },
   "scripts": {
     "lint": "gulp lint",
