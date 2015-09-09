@@ -15,6 +15,11 @@ npm install
 npm install -g gulp
 bower install
 gulp                # gulp lint, test, build, watch
+```
+
+And once it starts watching, in another terminal tab:
+
+```sh
 cat angular-library-boilerplate.js
 ```
 
@@ -39,6 +44,11 @@ gulp watch
 
 * jshint for linting
 * karma and jasmine for unit testing
+* Spec files are of the form *.spec.js
+
+## Future
+
+* Order the files so *.module.js files get included first
 
 ## Contact
 

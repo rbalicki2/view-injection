@@ -24,8 +24,7 @@
     "lint": "gulp lint",
     "test": "gulp test",
     "build": "gulp build",
-    "watch": "gulp watch",
-    "bump" : "gulp bump"
+    "watch": "gulp watch"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
